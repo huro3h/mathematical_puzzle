@@ -18,7 +18,7 @@ AndOr:
   Enabled: false
 
 # 日本語コメント許可
-Style/AsciiComments:
+AsciiComments:
   Enabled: false
 
 # ドキュメントの無いpublic classを許可

@@ -5,18 +5,18 @@
 # 2進数で一番右が1 -> 必ず奇数
 # 奇数だけを探す為、2ずつインクリメント
 
-def palindrome(num, decimal = 10)
-  num.to_s(decimal) == num.to_s(decimal).reverse
-end
+# def palindrome(num, decimal = 10)
+#   num.to_s(decimal) == num.to_s(decimal).reverse
+# end
 
-num = 11
+# num = 11
 
-loop do
-  if palindrome(num) && palindrome(num, 8) && palindrome(num, 2)
-    p num
-    p num.to_s(8)
-    p num.to_s(2)
-    break
-  end
-  num += 2
-end
+# loop do
+#   if palindrome(num) && palindrome(num, 8) && palindrome(num, 2)
+#     p num
+#     p num.to_s(8)
+#     p num.to_s(2)
+#     break
+#   end
+#   num += 2
+# end
