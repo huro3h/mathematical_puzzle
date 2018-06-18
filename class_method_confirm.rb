@@ -14,4 +14,4 @@ class B
   end
 end
 # B.method2
-# => [#<Class:B>, B]
+# => [#<Class:B>, B
