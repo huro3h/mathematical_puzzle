@@ -6,9 +6,9 @@ end_day = Date.today - 1
 period = (start_day..end_day).to_a.map { |day| day.strftime("%m/%d") }
 
 period.each_slice(7).to_a.each do |week|
-  monday =  week[0]
+  sunday =  week[0]
   lastday = week[6] || week.last
-  puts "#{monday} - #{lastday}"
+  puts "#{sunday} - #{lastday}"
 end
 
 # 06/03 - 06/09
